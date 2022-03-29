@@ -1,0 +1,123 @@
+.main{
+    padding-left: 82px;
+    line-height: 0;
+    color: #121212;
+}
+
+.main h1{
+    margin-top: 37px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.main img{
+    width: 80%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.main .info-cons{
+    width: 80%;
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main .info-cons .info-cons-left{
+    display: flex;
+    align-items: baseline;
+}
+
+.main .info-cons .info-cons-left .left-cols{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .info-cons .info-cons-left .left-cols h3{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.main .info-cons .info-cons-left .left-cols h4{
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+.main .info-cons .info-cons-left #price{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #F05454;
+    margin-left: 20px;
+}
+
+.main .info-cons .info-cons-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.main .info-cons .info-cons-right h4{
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+.main-2{
+    padding-left: 82px;
+    padding-right: 82px;
+    line-height: 0;
+    color: #121212;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-2 .main-2-info h4{
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+.main-2 .main-2-info .desc-cons{
+    width: 640px;
+    text-align: justify;
+}
+
+.main-2 .main-2-action{
+    width: 217px;
+    height: 179px;
+    border-left: 7px solid #353535;
+}
+
+.main-2 .main-2-action a{
+    width: 179px;
+    height: 37px;
+    background-color: #FFF50E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #121212;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 31px;
+}
+
+.main-2 .main-2-action button{
+    width: 179px;
+    height: 37px;
+    background-color: #FF0000;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+}

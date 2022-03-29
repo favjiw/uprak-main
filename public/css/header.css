@@ -1,0 +1,102 @@
+*{
+    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white     ;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F05454;
+    font-style: italic;
+    font-size: 2rem;
+    margin-left: 82px;
+    letter-spacing: 2px;
+}
+
+header .nav{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 82px;
+}
+
+header .nav h5 a{
+    color: #121212;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+/* add */
+
+form{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+form button{
+    margin-top: 40px;
+}
+
+/* landing */
+.landing-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-container{
+    width: 70%;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.landing-container h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+
+#landing-person{
+    width: 450px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
